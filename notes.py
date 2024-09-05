@@ -7,6 +7,44 @@
 #* You will know what kind of data can be stored in variables
 #* You will understand the difference between strings, integers and floating point numbers
 
+mystring = "smth"
+myInt = 100
+myFloat = 2.5
+
+
+# casting example.
+print(myInt/2)
+# this becomes 50
+mynewInt = "100"
+# print(mynewInt/2)
+# this becomes an error
+print(int(mynewInt)/2)
+
+
+num1 = input("please answer a number")
+
+print(num1 + num1)
+
+print(int(num1) + int(num1))
+# string and integer can not be together 
+print("My int = " + str(myInt))
+
+
+
+thing = 500/6
+print(thing)
+print("My result is " + str(thing))
+print("My result is", thing) #comma gives you automatic space
+print(f"The result is {thing}") # f string - {} are for variables
+
+
+print("First line \nSecond line\n Third line")
+print("List header")
+print("\t Item1") # tab is like indent
+print("\t Item2")
+print("\t Item3")
+
+print("C:\\owf\\wgwrgsfg\\zfgegfvsvd") # each backslash has to be 2 back slashes
 
 
 ## Live Demo ##
